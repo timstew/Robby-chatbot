@@ -9,18 +9,11 @@ st.set_page_config(layout="wide", page_icon="💬", page_title="Gaming | Chat-Bo
 with st.sidebar.expander("📬 Contact"):
 
 #Title
-st.markdown(
-    """
-    <h2 style='text-align: center;'>Your data-aware assistant 🤖</h1>
-    """,
-    unsafe_allow_html=True,)
-
-st.markdown("---")
-
 
 #Description
 st.markdown(
     """ 
+    <h2 style='text-align: center;'>Your data-aware assistant 🤖</h2>
     <h5 style='text-align:center;'>I'm trying to be, an intelligent chatbot created by combining 
     the strengths of Langchain and Streamlit. I use large language models to provide
     context-sensitive interactions. My goal is to help you better understand your data.
