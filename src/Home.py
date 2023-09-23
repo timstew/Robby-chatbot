@@ -24,11 +24,11 @@ with st.sidebar.expander("📬 Contact"):
 
 
 #Robby's Pages
-st.subheader("🚀 Robby's Pages")
+st.subheader("🚀 Data Chats")
 st.write("""
-- **File-Chat**: General Chat on data (PDF, TXT,CSV) with a [vectorstore](https://github.com/facebookresearch/faiss) (index useful parts(max 4) for respond to the user) | works with [ConversationalRetrievalChain](https://python.langchain.com/en/latest/modules/chains/index_examples/chat_vector_db.html)
-- **Sheet-Chat** (beta): Chat on tabular data (CSV) | for precise information | process the whole file | works with [CSV_Agent] + Data Frames for data manipulation and graph creation
-- **Youtube-Chat**: Summarize YouTube videos with [summarize-chain](https://python.langchain.com/en/latest/modules/chains/index_examples/summarize.html)
+- **File-Chat**: General Chat on data (PDF, TXT,CSV) with a vectorstore (index useful parts(max 4) for respond to the user) | works with [ConversationalRetrievalChain](https://python.langchain.com/en/latest/modules/chains/index_examples/chat_vector_db.html)
+- **Sheet-Chat** (beta): Chat on tabular data (CSV) | for precise information | process the whole file
+- **Youtube-Chat**: Summarize YouTube videos
 """)
 st.markdown("---")
 
